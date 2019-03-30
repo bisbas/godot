@@ -389,6 +389,7 @@ private:
 			return;
 		}
 
+
 		DirAccess *d = DirAccess::create(DirAccess::ACCESS_FILESYSTEM);
 		if (d->change_dir(project_path->get_text()) == OK) {
 
